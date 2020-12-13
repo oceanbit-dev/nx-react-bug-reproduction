@@ -4,6 +4,9 @@ import styles from './app.module.css';
 
 import { ReactComponent as Logo } from './logo.svg';
 import star from './star.svg';
+import { PubSubClient } from 'twitch-pubsub-client';
+
+export const pubSubClient = new PubSubClient();
 
 export function App() {
   return (
